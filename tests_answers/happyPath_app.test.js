@@ -7,10 +7,20 @@ const describe = mocha.describe;
 const it = mocha.it;
 
 const data = require('../data');
-const getPets = require('../app/happyPath_function').getPets;
+const getPets = function (people, pets) {
+    people.forEach((person) => {
+        if (person.dog !== null) {
+            pets.push(person.dog);
+        }
+        if (person.cat !== null) {
+            pets.push(person.cat);
+        }
+    });
+    return pets;
+};
 
 describe('Our App', () => {
-    describe('getPets function', () => {
+    describe('getPets happy path function', () => {
         it('should be a function', () => {
             expect(getPets).to.be.an('function');
         });

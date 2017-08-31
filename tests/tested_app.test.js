@@ -54,32 +54,32 @@ describe('Our App', () => {
         });
 
         it('should not mutate passed arrays', () => {
-
+            expect('test').to.be.equal('done');
         });
 
 
         it('should handle pets without names and not add entries', () => {
-
+            expect('test').to.be.equal('done');
         });
 
         it('should handle badly formatted pets and not add entries', () => {
-
+            expect('test').to.be.equal('done');
         });
 
         it('should handle badly formated people and not add entries', () => {
-
+            expect('test').to.be.equal('done');
         });
 
         it('should keep existing pets in result array', () => {
-
+            expect('test').to.be.equal('done');
         });
 
         it('should handle when existing pets aren\'t passed in', () => {
-
+            expect('test').to.be.equal('done');
         });
 
         it('should handle when bad existing pets are passed in and still add entries', () => {
-
+            expect('test').to.be.equal('done');
         });
     });
 });
