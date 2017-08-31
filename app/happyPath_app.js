@@ -1,6 +1,6 @@
 'use strict';
 
-const owners = require('../data').happy;
+const owners = require('../data');
 const oldPets = [{
     name: 'Alexander',
     breed: 'Persian',
