@@ -7,17 +7,17 @@ const oldPets = [{
     age: 4
 }];
 
-function getPets (people, existingPets) {
+function getPets (people, pets) {
 
     people.forEach((person) => {
         if (person.dog === null) {
-            existingPets.push(person.dog);
+            pets.push(person.dog);
         }
         if (person.cat === null) {
-            existingPets.push(person.cat);
+            pets.push(person.cat);
         }
     });
-    return existingPets;
+    return pets;
 }
 
 console.log(getPets(owners, oldPets));
