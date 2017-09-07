@@ -3,7 +3,7 @@
 import { expect } from 'chai';
 import { describe, it } from 'mocha';
 
-import Simple from '../app/Simple';
+import Simple from '../app/Simple.jsx';
 
 describe('Simple', () => {
     it('should render a div with "Hello World as text', () => {
