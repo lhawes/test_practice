@@ -3,7 +3,7 @@
 import React, { Component } from 'react';
 import Title from './Title.jsx';
 import Simple from './Simple.jsx';
-import Temperature from './Temperature.jsx';
+import Calculator from './Calculator.jsx';
 
 class App extends Component {
     render() {
@@ -11,7 +11,7 @@ class App extends Component {
             <div>
                 <Title />
                 <Simple />
-                <Temperature />
+                <Calculator />
             </div>
         );
     }
